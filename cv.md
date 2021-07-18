@@ -4,7 +4,7 @@
 
 ## Personal information
 
-E-mail: [My email](t.areshchanka@gmail.com).  
+E-mail: t.areshchanka@gmail.com.  
 Phone number: +375 (29) 735-14-01.  
 Adress: Gomel.  
 Age: 34.  
