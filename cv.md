@@ -1,4 +1,4 @@
-![My photo](/1.jpg)
+![My photo](/11.jpg)
 
 # Areshchanka Tatsiana
 
