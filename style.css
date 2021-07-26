@@ -1,0 +1,82 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  padding: 40px;
+  background-color: #f5f79b;
+  color: #222215;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+header {
+  padding: 20px;
+  background-color: #dfe255;
+  border-radius: 25px;
+}
+main {
+  margin-left: 50px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+h1 {
+  text-align: center;
+  flex-basis: 100%;
+  text-shadow: 1px 1px 2px #2f4417;
+  font-style: italic;
+  font-size: 2.5em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h2 {
+  justify-content: left;
+}
+
+.photo {
+  padding: 10px;
+  border: 3px solid #dfe209;
+  max-width: 324px;
+  max-height: 427px;
+}
+
+.header {
+  text-align: center;
+}
+.section1 {
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.persinf {
+  justify-content: left;
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.skills,
+.persqual {
+  background-color: #dfe255;
+  border-radius: 25px;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  main {
+    display: block;
+  }
+}
