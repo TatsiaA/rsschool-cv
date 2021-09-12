@@ -1,6 +1,6 @@
-![My Photo](/IMG_22.jpg)
-
 # Areshchanka Tatsiana
+
+![My Photo](/IMG_22.jpg)
 
 ## About myself
 My life motto:  
