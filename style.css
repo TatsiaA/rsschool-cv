@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 400;
   color: #000000;
@@ -20,26 +20,15 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
+  padding-top: 30px;
   
 }
 
-.body {
-  margin-left: auto;
-  margin-right: auto;
-  
-  padding: 40px;
-  background-color: #f5f79b;
-  color: #222215;
-  //position: relative;
-  //display: flex;
-  //flex-wrap: wrap;
-  //flex-direction: column;
-   
-}
 
 .body a {
-  color: #323515;
+  color: #dfe209;
 }
+
 .body a:hover,
 .body a:focus {
   text-decoration: none;
@@ -49,37 +38,83 @@
   text-decoration: underline;
 }
 
-header {
-  font-size: 0;
-  background-color: #dfe255;
-  border-radius: 25px;
-}
-main {
-  padding-top: 40px;
- // display: flex;
- // justify-content: flex-start;
-}
-
-
 .photo {
-  padding: 10px;
+  padding: 15px;
+  margin: 15px;
+  margin-bottom: 50px;
+  
   border: 3px solid #dfe209;
   max-width: 290px;
   max-height: 386px;
 }
 
-
-.left_side {
-  margin-right: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.left_title {
+  position: relative;
+  margin: 0;
+  margin-bottom: 36px;
+  padding-left: 50px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+  background-color: #dfe255;
 }
 
-.persinf {
+.left_title::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 40px;
+  background-color: #f2c100;
+}
+
+.left_side {
+ 
+  background-color: #5b7953;
+  color: #f5f5f5;
+}
+
+.left_side p,
+.left_side ul {
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #f5f5f5;
+
+}
+
+.right_title {
+  position: relative;
+  margin: 0;
+  margin-bottom: 36px;
+  padding-left: 50px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.right_title::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 40px;
+  background-color: #5b7953;
+}
+
+.right_side .right_title {
+  background-color: #85af79;
+  color: #f5f5f5;
+}
+
+
+.persinf,
+.target {
   justify-content: left;
   text-align: justify;
-  margin-left: 20px;
+  color: #000000;
+ 
 }
 
 .skills,
@@ -88,20 +123,44 @@ main {
   border-radius: 25px;
 }
 
-footer {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+.right_side {
+  margin-left: 30px;
 }
 
-footer a {
+.page_title {
+  margin: 80px 80px 125px 60px;
+}
+
+.page_title p {
+  font-size: 20px;
+}
+
+.main_title {
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  
+  text-align: center;
+  background-color: #5b7953;
+}
+
+.author {
   text-decoration: none;
+ 
 }
 
 .logo {
   width: 100px;
   height: auto;
 }
+
 @media screen and (max-width: 768px) {
   main {
     display: block;
