@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="./burger.js" defer></script>
@@ -35,6 +36,8 @@
         <li> <a href="#Skills">Skills</a> </li>
         <li> <a href="#PersQ">Personal qualities</a> </li>
         <li> <a href="#Add">My projects</a> </li>
+        <li> <a href="#Code">Code example</a> </li>
+        <li> <a href="#Video">Video</a> </li>
       </ul>
     </nav>
     </div>
@@ -78,27 +81,60 @@
           </ul>
           <section class="projects">
             <h2 class="left_title" id="Add">My projects</h2> 
-            
+            <ul class="projects__list">
+              <li class="projects__item">
                 
-                <a href="https://github.com/TatsiaA/Example_html/blob/main/huston.html" target="_blank">Example of html-page</a> <br>
-                <a href="https://tatsiaa.github.io/js30/" target="_blank">RSSchool project Vertical slider</a> <br>
-                <a href="https://tatsiaa.github.io/rsschool-museum/museum" target="_blank">RSSchool project Museum</a> <br>
+                <a href="/example/huston.html" target="_blank"> 
+                <img src="huston.jpg" width="80" height="42" alt="HTML screenshot" class="projects__image">
+                <h3 class="projects__title">HTML-page</h3>
+                </a>
+            </li>
+            <li class="projects__item">
+                <a href="https://tatsiaa.github.io/js30/" target="_blank"> 
+                  <img src="slider.jpg" width="80" height="42" alt="Slider screenshot" class="projects__image">
+                  <h3 class="projects__title">RSSchool project Vertical slider</h3>
+                </a>
+              
+              </li> 
+              <li class="projects__item"> 
+                <a href="https://tatsiaa.github.io/rsschool-museum/museum" target="_blank">
+                  <img src="museum.jpg" width="80" height="42" alt="Museum screenshot" class="projects__image">
+                  <h3 class="projects__title">RSSchool project Museum</h3>
+                </a> 
+              </li>
+              </ul>
             </section> 
             
-            <div class="video__video" id="Video">
-                  
-              <video class="vid" src="https://yohttps://www.youtube.com/watch?v=06XdFaiSPEk" 
-              poster="/11.jpg"
-              controls width="320" height="220">
-
-              </video>
-              </div>
+            
           </article>
-          
+
+          <section class="code-example" id="Code">
+            <h2 class="left_title">Code example</h2>
+            <details>
+              <summary>Code example</summary>
+              <pre class="pre_code">
+                <code data-language = "javascript">
+                  function decToBin(d) {
+                    if (d === 1) {
+                       return '1';
+                     }
+                     if (d === 0) {
+                       return '0';
+                     } else {
+                     return decToBin(Math.floor(d / 2)) + (d % 2);
+                   }
+                     
+                   }
+                   console.log(decToBin(d));
+                </code>
+              </pre>
+            </details>
+          </section>
+
       </div>
     
     
-    <div class="right_side">
+  <div class="right_side">
     <section class="page_title">  <hr> <br> <br>
       <h2 class="main_title">Tatsiana <br>Areshchanka</h2>
       <p>Front-End developer</p> <br>
@@ -165,7 +201,14 @@
 
     </ul>
     </article>  
-    
+    <div class="video__video">
+      <h2 class="right_title" id="Video">Video</h2>            
+      <video class="vid" src="VID_20210920_234626.mp4" 
+      poster="/MyPhoto.jpg"
+      controls width="420" height="220">
+
+      </video>
+      </div>
   </div> 
     </main> 
     <footer class="footer"> 
@@ -180,6 +223,8 @@
             <li> <a href="#Skills">Skills</a> </li>
             <li> <a href="#PersQ">Personal <br> qualities</a> </li>
             <li> <a href="#Add">My projects</a> </li>
+            <li> <a href="#Code">Code example</a> </li>
+            <li> <a href="#Video">Video</a> </li>
         </ul>
     </aside>
       <a href="https://github.com/TatsiaA" target="_blank" class="author"> TatsiaA </a> 
