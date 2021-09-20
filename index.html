@@ -11,31 +11,58 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
       rel="stylesheet"
     />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="./burger.js" defer></script>
     <title>CV Areshchanka Tatsiana</title>
-  
+    
 </head>
 <body class="body">
-    
+  <header class="header">
+    <div class="navigation1">
+    <div class="burger_menu">
+      <span class="tp"></span>
+      <span class="ct"></span>
+      <span class="bt"></span>
+    </div>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li> <a href="#A">About me</a> </li>
+        <li> <a href="#P">Personal information</a> </li>
+        <li> <a href="#Sum">Summary of Accomplishments</a> </li>
+        <li> <a href="#Edu">Education</a> </li>
+        <li> <a href="#Work">Work experience</a> </li>
+        <li> <a href="#Skills">Skills</a> </li>
+        <li> <a href="#PersQ">Personal qualities</a> </li>
+        <li> <a href="#Add">My projects</a> </li>
+      </ul>
+    </nav>
+    </div>
+      <h1 class="header_title">Tatsiana <br>Areshchanka</h1>
+      <p>Front-End developer</p>
+      <hr>
+  </header>
     <main class="container">
       
       <div class="left_side"> 
-              
+        <figure>     
         <img class="photo" src="IMG_22.jpg" alt="Areshchanka Tatsiana">
+        </figure> 
         <section class="target">
           
-          <h2 class="left_title">About me</h2>
+          <h2 class="left_title" id="A">About me</h2>
           <p>
     I'm searching for an interesting high-paying job with a career 
     perspective and the opportunity to evolve and learn something new
           </p>
         </section>
         <article class="persinf">   
-          <h2 class="left_title">Personal information</h2> 
+          <h2 class="left_title" id="P">Personal information</h2> 
       
           <ul>
             <li>E-mail: <a href="mailto:t.areshchanka@gmail.com">t.areshchanka@gmail.com</a> </li>
             <li>Discord: Tatsiana#5926 </li>
-            <li>Phone number: +375 (29) 7351401</li>            
+            <li>Phone number: +375(29)735-14-01</li>            
           </ul> 
      
           <p>Adress: Gomel.  
@@ -43,26 +70,44 @@
             <br>Education: higher.
           </p>  
       
-          <h2 class="left_title">Summary of <br> Accomplishments</h2> 
+          <h2 class="left_title" id="Sum">Summary of <br> Accomplishments</h2> 
           <ul class="summary">
               <li>Can-do attitude;</li>
               <li>Detail-oriented;</li>
               <li>Highly organized.</li>
           </ul>
+          <section class="projects">
+            <h2 class="left_title" id="Add">My projects</h2> 
+            
+                
+                <a href="https://github.com/TatsiaA/Example_html/blob/main/huston.html" target="_blank">Example of html-page</a> <br>
+                <a href="https://tatsiaa.github.io/js30/" target="_blank">RSSchool project Vertical slider</a> <br>
+                <a href="https://tatsiaa.github.io/rsschool-museum/museum" target="_blank">RSSchool project Museum</a> <br>
+            </section> 
+            
+            <div class="video__video" id="Video">
+                  
+              <video class="vid" src="https://yohttps://www.youtube.com/watch?v=06XdFaiSPEk" 
+              poster="/11.jpg"
+              controls width="320" height="220">
+
+              </video>
+              </div>
           </article>
+          
       </div>
     
     
     <div class="right_side">
     <section class="page_title">  <hr> <br> <br>
-      <h1 class="main_title">Tatsiana <br>Areshchanka</h1>
+      <h2 class="main_title">Tatsiana <br>Areshchanka</h2>
       <p>Front-End developer</p> <br>
       <hr> </section>
     
     
     
     <section class="effect">
-    <h2 class="right_title">Education</h2> 
+    <h2 class="right_title" id="Edu">Education</h2> 
     <p>
     2004 - 2009 -  
     Belarusian State University of Transport,  
@@ -77,34 +122,38 @@
     </section>
     
     <section class="effect">
-    <h2 class="right_title">Work experience</h2> 
+    <h2 class="right_title" id="Work">Work experience</h2> 
     
     <ul>
-        <li>2018 - 2021  
+        <li>2021 - present,   
+          LeoObject LLC,  
+          human resources specialist, accountant;</li>
+        <li>2018 - 2021,  
     Gomel Customs,  
     Custom Operations and Control Department, inspector; </li>
-        <li>2017 - 2018  
+        <li>2017 - 2018,  
     Gomel Customs,  
     Accounting and Control Department, lead accountant;</li>
-        <li>2012 - 2017  
+        <li>2012 - 2017,  
     Gomel Customs,  
     Accounting and Control Department, senior inspector;</li>
-        <li>2009 - 2011  
+        <li>2009 - 2011,  
     Gomel Customs,  
     Accounting and Control Department, inspector.  </li>
     </ul>
     </section>
     <section class="skills">
-    <h2 class="right_title">Skills</h2> 
+    <h2 class="right_title" id="Skills">Skills</h2> 
     
     <ul>
         <li>Analytical thinking;</li>
         <li>Ability to work efficiently in a team;</li>
-        <li>Willingness to learn.</li>
+        <li>Willingness to learn;</li>
+        <li>English - Pre-Intermediate.</li>
     </ul>
     </section>    
     <article class="persqual">
-    <h2 class="right_title">Personal qualities</h2> 
+    <h2 class="right_title" id="PersQ">Personal qualities</h2> 
     
     <ul>
         <li>Attentiveness to details, scrupulosity;</li>
@@ -116,18 +165,23 @@
 
     </ul>
     </article>  
-    <section class="effect">
-    <h2 class="right_title">Additional information</h2> 
     
-        <p>Foreign languages: English - Pre-Intermediate. <br>
-        PC skills: advanced user (MC Office, 1C:Enterprise). <br>
-        <a href="https://github.com/TatsiaA/Example_html/blob/main/huston.html" target="_blank">Example of html-page</a> <br>
-        Driving license (Category B).</p>
-    
-    </section> 
   </div> 
     </main> 
     <footer class="footer"> 
+      
+      <aside class="navigation">
+        <ul>
+            <li> <a href="#A">About me</a> </li>
+            <li> <a href="#P">Personal information</a> </li>
+            <li> <a href="#Sum">Summary of <br> Accomplishments</a> </li>
+            <li> <a href="#Edu">Education</a> </li>
+            <li> <a href="#Work">Work experience</a> </li>
+            <li> <a href="#Skills">Skills</a> </li>
+            <li> <a href="#PersQ">Personal <br> qualities</a> </li>
+            <li> <a href="#Add">My projects</a> </li>
+        </ul>
+    </aside>
       <a href="https://github.com/TatsiaA" target="_blank" class="author"> TatsiaA </a> 
       <br>
       <span> 2021 </span>
