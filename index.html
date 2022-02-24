@@ -11,9 +11,6 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
   <script src="./burger.js" defer></script>
   <title>CV Areshchanka Tatsiana</title>
 </head>
@@ -29,31 +26,31 @@
       <ul class="nav_list">
         <li> <a href="#A">About me</a> </li>
         <li> <a href="#P">Personal information</a> </li>
-        <li> <a href="#Sum">Summary of Accomplishments</a> </li>
         <li> <a href="#Edu">Education</a> </li>
         <li> <a href="#Work">Work experience</a> </li>
         <li> <a href="#Skills">Skills</a> </li>
         <li> <a href="#PersQ">Personal qualities</a> </li>
         <li> <a href="#Add">My projects</a> </li>
-        <li> <a href="#Code">Code example</a> </li>
-        <li> <a href="#Video">Video</a> </li>
       </ul>
     </nav>
     </div>
       <h1 class="header_title">Tatsiana <br>Areshchanka</h1>
-      <p>JavaScript developer</p>
+      <p>Trainee PHP developer</p>
       <hr>
   </header>
   <main class="container">
     <div class="left_side">
       <figure>
-      <img class="photo" src="IMG_22.jpg" alt="Areshchanka Tatsiana">
+      <img class="photo" src="photoT.jpg" alt="Areshchanka Tatsiana">
       </figure>
       <section class="target">
         <h2 class="left_title" id="A">About me</h2>
         <p>
     I'm searching for an interesting and dynamic job with a career
-    perspective and the opportunity to evolve and learn something new
+    perspective and the opportunity to evolve and learn something new.
+    I dream of working efficiently in a development team to achieve common
+    goals and to be delighted by the result of work. <br>
+    My life motto: <i>If you do something, do it well!</i>
         </p>
       </section>
       <article class="persinf">
@@ -66,12 +63,6 @@
           <li>Telegram: <a href="https://t.me/TatsiaA" target="_blank">@TatsiaA</a> </li>
           <li>Discord: Tatsiana#5926 </li>
         </ul>
-        <h2 class="left_title" id="Sum">Summary of <br> Accomplishments</h2>
-        <ul class="summary">
-          <li>Can-do attitude;</li>
-          <li>Detail-oriented;</li>
-          <li>Highly organized.</li>
-        </ul>
         <section class="projects">
           <h2 class="left_title" id="Add">My projects</h2>
           <ul class="projects__list">
@@ -79,6 +70,12 @@
               <a href="https://tatsiaa-rs-lang-teamwork.netlify.app/" target="_blank">
                 <img src="lang.jpg" width="80" height="42" alt="RS Lang screenshot" class="projects__image">
                 <h3 class="projects__title">RS Lang (teamwork)</h3>
+              </a>
+            </li>
+            <li class="projects__item">
+              <a href="https://rolling-scopes-school.github.io/tatsiaa-JSFE2021Q3/christmas-task-1/Christmas-task" target="_blank">
+                <img src="christmas-task.jpg" width="80" height="42" alt="Christmas-task screenshot" class="projects__image">
+                <h3 class="projects__title">Decorate the Christmas tree</h3>
               </a>
             </li>
             <li class="projects__item">
@@ -96,33 +93,12 @@
           </ul>
         </section>
       </article>
-      <section class="code-example" id="Code">
-        <h2 class="left_title">Code example</h2>
-        <details>
-          <summary>Code example</summary>
-          <pre class="pre_code">
-            <code data-language = "javascript">
-              function decToBin(d) {
-                if (d === 1) {
-                  return '1';
-                }
-                if (d === 0) {
-                  return '0';
-                } else {
-                  return decToBin(Math.floor(d / 2)) + (d % 2);
-                }
-              }
-              console.log(decToBin(d));
-            </code>
-          </pre>
-        </details>
-      </section>
     </div>
 
     <div class="right_side">
       <section class="page_title">  <hr> <br> <br>
         <h2 class="main_title">Tatsiana <br>Areshchanka</h2>
-        <p>JavaScript developer</p> <br>
+        <p>Trainee PHP developer</p> <br>
         <hr>
       </section>
       <section class="effect">
@@ -131,7 +107,7 @@
           2004 - 2009 -
           Belarusian State University of Transport,
           Accounting, analysis and audit, <br>
-          Qualification: economist.
+          Economist.
         </p>
         <p>
           2022 -
@@ -167,54 +143,40 @@
       <section class="skills">
         <h2 class="right_title" id="Skills">Skills</h2>
         <ul>
-          <li>Analytical thinking;</li>
-          <li>Ability to work efficiently in a team;</li>
-          <li>Willingness to learn;</li>
+          <li>HTML, CSS (Flexbox, Grid, Responsive layout), basic knowledge;</li>
+          <li>JavaScript, Typescript, basic knowledge;</li>
+          <li>NodeJS, AJAX, initial knowledge;</li>
+          <li>Figma, user level;</li>
+          <li>Webpack, user level;</li>
           <li>English - Intermediate.</li>
         </ul>
       </section>
       <article class="persqual">
       <h2 class="right_title" id="PersQ">Personal qualities</h2>
       <ul>
-        <li>Attentiveness to details, scrupulosity;</li>
+        <li>Analytical thinking;</li>
         <li>Perseverance in achieving goals;</li>
         <li>Initiative;</li>
         <li>Good communication skills;</li>
-        <li>High degree of responsibility;</li>
-        <li>Striving for professional development.</li>
+        <li>High degree of responsibility, scrupulosity;</li>
+        <li>Willingness to learn and striving for professional development.</li>
       </ul>
       </article>
-      <div class="video__video">
-        <h2 class="right_title" id="Video">Video</h2>
-        <video class="vid" src="VID_20210920_234626.mp4"
-          poster="MyPhoto.jpg"
-          controls width="420" height="220">
-        </video>
-      </div>
     </div>
   </main>
   <footer class="footer">
     <aside class="navigation">
       <ul>
         <li> <a href="#A">About me</a> </li>
-        <li> <a href="#P">Personal information</a> </li>
-        <li> <a href="#Sum">Summary of <br> Accomplishments</a> </li>
         <li> <a href="#Edu">Education</a> </li>
         <li> <a href="#Work">Work experience</a> </li>
-        <li> <a href="#Skills">Skills</a> </li>
-        <li> <a href="#PersQ">Personal <br> qualities</a> </li>
-        <li> <a href="#Add">My projects</a> </li>
-        <li> <a href="#Code">Code example</a> </li>
-        <li> <a href="#Video">Video</a> </li>
+        <li> <a href="#Skills">Skills and personal qualities</a> </li>
       </ul>
     </aside>
     <a href="https://github.com/TatsiaA" target="_blank" class="author"> TatsiaA </a>
     <br>
     <span> 2022 </span>
     <br>
-    <a href="https://rs.school/js/" target="_blank">
-      <img class="logo" src="rs_school_js.svg" alt="RSSchool">
-    </a>
   </footer>
 </body>
 </html>

@@ -176,40 +176,6 @@ html {
   font-weight: 400;
 }
 
-.code-example h2 {
-  color: #000000;
-}
-
-.code-example {
-  width: 100%;
-  margin-bottom: 70px;
-}
-
-.code-example details {
-  margin: 0px 30px;
-  cursor: pointer;
-}
-
-.code-example pre {
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
-  line-height: 14px;
-}
-
-.code-example summary {
-  text-decoration: underline;
-}
-
-.code-example summary:hover {
-  text-decoration: none;
-}
-
-.pre_code {
-  background-color: #ffffff;
-  color: #000000;
-}
-
 .right_title {
   position: relative;
   margin: 0;
@@ -274,7 +240,7 @@ ul > li:last-child {
 }
 
 .page_title {
-  margin: 80px 0 125px 0;
+  margin: 80px 0 150px 0;
 }
 
 .page_title p {
