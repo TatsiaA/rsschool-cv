@@ -150,11 +150,16 @@ html {
 .projects__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
   margin: 0 20px;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+}
+
+.projects__item {
+  width: 48%;
+  margin: 0 auto 30px;
 }
 
 .projects__item a {
@@ -206,6 +211,10 @@ html {
   justify-content: left;
   text-align: justify;
   color: #000000;
+}
+
+.target p {
+  padding-bottom: 20px;
 }
 
 .skills,
