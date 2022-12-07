@@ -96,6 +96,7 @@ html {
 .body a:focus {
   text-decoration: none;
 }
+
 .body a:active {
   color:#f2c100;
   text-decoration: underline;
@@ -104,7 +105,8 @@ html {
 .photo {
   padding: 15px;
   margin: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 35px;
   border: 3px solid #dfe209;
   max-width: 290px;
   max-height: 386px;
@@ -159,6 +161,7 @@ html {
 
 .projects__item {
   width: 48%;
+  height: 100px;
   margin: 0 auto 30px;
 }
 
@@ -237,15 +240,6 @@ html {
 
 ul > li:last-child {
   padding-bottom: 20px;
-}
-
-.video__video {
-  display: flex;
-  flex-direction: column;
-}
-
-.vid {
-  margin: auto;
 }
 
 .page_title {
