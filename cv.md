@@ -1,6 +1,7 @@
 # Areshchanka Tatsiana
 
 ## About myself
+
 My life motto:  
 > If you do something, do it well!  
 
@@ -12,9 +13,9 @@ Highly organized, detail-oriented and have strong can-do attitude.
 
 ## Contacts:  
   
+**E-mail:** t.areshchanka@gmail.com  
 **GitHub:** [TatsiaA](https://github.com/TatsiaA)  
 **Discord:** Tatsiana#5926  
-**E-mail:** t.areshchanka@gmail.com  
 **Phone number:** +375 (29) 735-14-01.  
 
 ## Education
