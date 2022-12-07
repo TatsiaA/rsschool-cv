@@ -1,4 +1,14 @@
+***
 # Areshchanka Tatsiana
+_Software engineer_
+
+
+## Contacts  
+  
+**E-mail:** t.areshchanka@gmail.com  
+**GitHub:** [TatsiaA](https://github.com/TatsiaA)  
+**Discord:** Tatsiana#5926  
+**Phone number:** +375 (29) 735-14-01.  
 
 ## About myself
 
@@ -10,13 +20,6 @@ Highly organized, detail-oriented and have strong can-do attitude.
 **Location:** Gomel, Belarus.  
   
 **Foreign languages:** English - B1.  
-
-## Contacts:  
-  
-**E-mail:** t.areshchanka@gmail.com  
-**GitHub:** [TatsiaA](https://github.com/TatsiaA)  
-**Discord:** Tatsiana#5926  
-**Phone number:** +375 (29) 735-14-01.  
 
 ## Education
 
@@ -66,3 +69,5 @@ console.log(decToBin(d));
 * Good communication skills;
 * High degree of responsibility;
 * Striving for professional development.
+
+***
