@@ -5,12 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap"
-    rel="stylesheet"
-  />
+    rel="stylesheet">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
@@ -29,7 +28,6 @@
       <ul class="nav_list">
         <li> <a href="#A">About me</a> </li>
         <li> <a href="#P">Personal information</a> </li>
-        <li> <a href="#Sum">Summary of Accomplishments</a> </li>
         <li> <a href="#Edu">Education</a> </li>
         <li> <a href="#Work">Work experience</a> </li>
         <li> <a href="#Skills">Skills</a> </li>
@@ -41,7 +39,7 @@
     </nav>
     </div>
       <h1 class="header_title">Tatsiana <br>Areshchanka</h1>
-      <p>JavaScript developer</p>
+      <p>Software Engineer</p>
       <hr>
   </header>
   <main class="container">
@@ -65,12 +63,6 @@
           <li>Skype: live:.cid.8ff906cdf2576945</li>
           <li>Telegram: <a href="https://t.me/TatsiaA" target="_blank">@TatsiaA</a> </li>
           <li>Discord: Tatsiana#5926 </li>
-        </ul>
-        <h2 class="left_title" id="Sum">Summary of <br> Accomplishments</h2>
-        <ul class="summary">
-          <li>Can-do attitude;</li>
-          <li>Detail-oriented;</li>
-          <li>Highly organized.</li>
         </ul>
         <section class="projects">
           <h2 class="left_title" id="Add">My projects</h2>
@@ -96,33 +88,12 @@
           </ul>
         </section>
       </article>
-      <section class="code-example" id="Code">
-        <h2 class="left_title">Code example</h2>
-        <details>
-          <summary>Code example</summary>
-          <pre class="pre_code">
-            <code data-language = "javascript">
-              function decToBin(d) {
-                if (d === 1) {
-                  return '1';
-                }
-                if (d === 0) {
-                  return '0';
-                } else {
-                  return decToBin(Math.floor(d / 2)) + (d % 2);
-                }
-              }
-              console.log(decToBin(d));
-            </code>
-          </pre>
-        </details>
-      </section>
     </div>
 
     <div class="right_side">
       <section class="page_title">  <hr> <br> <br>
         <h2 class="main_title">Tatsiana <br>Areshchanka</h2>
-        <p>JavaScript developer</p> <br>
+        <p>Software Engineer</p> <br>
         <hr>
       </section>
       <section class="effect">
@@ -130,12 +101,7 @@
         <p>
           2004 - 2009 -
           Belarusian State University of Transport,
-          Accounting, analysis and audit, <br>
-          Qualification: economist.
-        </p>
-        <p>
-          2022 -
-          English courses, Intermediate level.
+          economist.
         </p>
         <p>
           2021 - 2022 -
@@ -143,8 +109,8 @@
           JavaScript/Front-end.
         </p>
         <p>
-          2015 -
-          English courses, Intermediate level.
+          2022 -
+          English courses, B1+ level.
         </p>
       </section>
       <section class="effect">
@@ -184,31 +150,43 @@
         <li>Striving for professional development.</li>
       </ul>
       </article>
-      <div class="video__video">
-        <h2 class="right_title" id="Video">Video</h2>
-        <video class="vid" src="VID_20210920_234626.mp4"
-          poster="MyPhoto.jpg"
-          controls width="420" height="220">
-        </video>
-      </div>
+      <section class="code-example" id="Code">
+        <h2 class="right_title">Code example</h2>
+        <details>
+          <summary>Code example</summary>
+          <pre class="pre_code">
+            <code data-language="javascript">
+      function decToBin(d) {
+        if (d === 1) {
+          return '1';
+        }
+        if (d === 0) {
+          return '0';
+        } else {
+          return decToBin(Math.floor(d / 2)) + (d % 2);
+        }
+      }
+      console.log(decToBin(d));
+            </code>
+          </pre>
+        </details>
+      </section>
     </div>
   </main>
   <footer class="footer">
     <aside class="navigation">
       <ul>
-        <li> <a href="#A">About me</a> </li>
-        <li> <a href="#P">Personal information</a> </li>
-        <li> <a href="#Sum">Summary of <br> Accomplishments</a> </li>
-        <li> <a href="#Edu">Education</a> </li>
-        <li> <a href="#Work">Work experience</a> </li>
-        <li> <a href="#Skills">Skills</a> </li>
-        <li> <a href="#PersQ">Personal <br> qualities</a> </li>
-        <li> <a href="#Add">My projects</a> </li>
-        <li> <a href="#Code">Code example</a> </li>
-        <li> <a href="#Video">Video</a> </li>
+        <li><a href="#A">About me</a></li>
+        <li><a href="#P">Personal information</a></li>
+        <li><a href="#Edu">Education</a></li>
+        <li><a href="#Work">Work experience</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#PersQ">Personal <br> qualities</a></li>
+        <li><a href="#Add">My projects</a></li>
+        <li><a href="#Code">Code example</a></li>
       </ul>
     </aside>
-    <a href="https://github.com/TatsiaA" target="_blank" class="author"> TatsiaA </a>
+    <a href="https://github.com/TatsiaA" target="_blank" class="author">TatsiaA</a>
     <br>
     <span> 2022 </span>
     <br>

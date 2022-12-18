@@ -23,7 +23,6 @@ html {
 
 .burger_menu{
   display: none;
-
   width: 30px;
   height: 30px;
   flex-direction: column;
@@ -39,7 +38,7 @@ html {
 .burger_menu span{
   width: 100%;
   background-color: #000;
-  height: 2px;
+  height: 1px;
   transition: all 0.3s ease 0s;
 }
 
@@ -177,12 +176,12 @@ html {
 }
 
 .code-example h2 {
-  color: #000000;
+  color: #ffffff;
 }
 
 .code-example {
   width: 100%;
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 .code-example details {
