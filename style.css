@@ -57,7 +57,7 @@ html {
 }
 
 .navigation {
-  padding: 30px 20px;
+  padding: 15px 20px;
   line-height: 20px;
   background-color: #5b7953;
 }
@@ -71,8 +71,7 @@ html {
 }
 
 .navigation li {
-  margin-right: 40px;
-  padding-bottom: 25px;
+  text-align: center;
 }
 
 .navigation a {
@@ -311,11 +310,9 @@ ul > li:last-child {
   .container {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  padding-top: 30px;
-
 }
   .page {
-    margin-top: -300px;
+    margin-top: -260px;
   }
 
   .vid {
@@ -441,6 +438,10 @@ ul > li:last-child {
     justify-content: center;
   }
 
+  .navigation {
+    display: none;
+  }
+
   .navigation ul {
     margin: 0;
     padding: 0;
@@ -450,8 +451,7 @@ ul > li:last-child {
   }
 
   .navigation li {
-    margin-right: 10px;
-    padding-bottom: 25px;
+    text-align: center;
     justify-content: space-between;
   }
 
