@@ -149,9 +149,14 @@ html {
   color: #f5f5f5;
 }
 
-.projects__list {
+.persinf ul {
+  padding-left: 50px;
+}
+
+ul.projects__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 10px;
   margin: 0 20px;
   padding: 0;
@@ -161,13 +166,19 @@ html {
 
 .projects__item {
   width: 48%;
-  height: 100px;
-  margin: 0 auto 30px;
+  height: auto;
+  margin: 0 auto 20px;
+  font-size: 16px;
 }
 
 .projects__item a {
   width: 100%;
   margin: auto;
+  text-decoration: none;
+}
+
+.projects__item a:active {
+  text-decoration: none;
 }
 
 .projects__image {
@@ -177,12 +188,51 @@ html {
   object-fit: contain;
 }
 
+.left_side .projects__text-content {
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  width: 190px;
+  height: 120px;
+  margin-bottom: 15px;
+  background-color: #FFFFFF;
+}
+
+.left_side .projects__text-content p {
+  width: 90%;
+  height: auto;
+  padding: 0;
+  margin: auto;
+  font-size: 14px;
+  line-height: 1;
+  color: #000000;
+}
+
 .projects__title {
   position: relative;
   margin: 0;
   padding: 0 10px;
+  text-align: center;
   font-weight: 400;
+  line-height: 1.2;
 }
+
+.project__title {
+  margin-top: 13px;
+}
+
+.projects__technologies {
+  padding-top: 5px;
+  text-align: center;
+  color: #f2c100;
+  font-size: 14px;
+  line-height: 1;
+}
+
+ul.projects__list > li:last-child {
+  padding-bottom: 0;
+}
+
 
 .right_title {
   position: relative;
@@ -268,8 +318,16 @@ ul > li:last-child {
 }
 
 .author {
+  position: relative;
   text-decoration: none;
   font-size: 22px;
+}
+
+.author img {
+  position: relative;
+  top: 7px;
+  width: 30px;
+  height: 30px;
 }
 
 .logo {
@@ -282,8 +340,8 @@ ul > li:last-child {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   padding-top: 30px;
+  }
 
-}
   .page {
     margin-top: -300px;
   }
@@ -308,8 +366,8 @@ ul > li:last-child {
     margin-left: auto;
     margin-right: auto;
     width: 420px;
-
   }
+
   .header {
     margin: 20px;
   }
@@ -347,14 +405,16 @@ ul > li:last-child {
   }
 
   .nav {
-    position: fixed;
+    position: absolute;
     top: -300%;
     padding-top: 20px;
     padding-bottom: 20px;
-    right: 20px;
-    width: 300px;
+    width: 420px;
+    margin: auto;
+    margin-left: -30px;
     justify-content: space-around;
-    background-color: #85af79;
+    background-color: rgba(91, 121, 83, 0.9);
+
     transition: all 0.3s ease 0s;
     z-index: 3;
   }

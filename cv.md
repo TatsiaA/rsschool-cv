@@ -9,15 +9,14 @@ My life motto:
 Extremely motivated for career change goal. Highly organized, detail-oriented and have strong can-do attitude.
 
 **Location:** Gomel, Belarus.
-**Age:** 34.
-**Education:** higher.
-**Foreign languages:** English - Intermediate.
+**Foreign languages:** English - B1+/B2.
 
 ## Contacts:
 
 **GitHub:** [TatsiaA](https://github.com/TatsiaA)
 **Discord:** Tatsiana#5926
 **E-mail:** t.areshchanka@gmail.com
+**Telegram:** @TatsiaA
 **Phone number:** +375 (29) 735-14-01.
 
 ## Education
@@ -29,6 +28,10 @@ Qualification: economist.
 Graduated with high honors.
 
 ## Work experience
+
+* 2022 - till now
+Factory of innovations and solutions, LLC,
+software engineer;
 
 * 2021
 LeoObject LLC,
@@ -52,27 +55,12 @@ Accounting and Control Department, inspector.
 
 ## Skills
 
-* HTML5, CSS3;
-* JavaScript Basics;
-* Git, GitHub;
-* VS Code.
-
-## Code example
-
-```
-function decToBin(d) {
- if (d === 1) {
-    return '1';
-  }
-  if (d === 0) {
-    return '0';
-  } else {
-  return decToBin(Math.floor(d / 2)) + (d % 2);
-}
-
-}
-console.log(decToBin(d));
-```
+* HTML5, CSS3, SCSS, Tailwind CSS, Bootstrap;
+* JavaScript (Vue.js, Angular), Typescript;
+* PHP (Symfony, Laravel), WordPress;
+* Databases (MySQL, MongoDB);
+* Git (GitHub, GitLab, BitBucket);
+* VS Code, PHPStorm.
 
 ## Personal qualities
 
